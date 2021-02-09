@@ -1,0 +1,18 @@
+[28-Jan-2021 01:05:56 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php on line 63
+[28-Jan-2021 01:05:56 UTC] PHP Stack trace:
+[28-Jan-2021 01:05:56 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php:0
+[28-Jan-2021 01:08:37 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php on line 63
+[28-Jan-2021 01:08:37 UTC] PHP Stack trace:
+[28-Jan-2021 01:08:37 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php:0
+[03-Feb-2021 18:34:50 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php on line 63
+[03-Feb-2021 18:34:50 UTC] PHP Stack trace:
+[03-Feb-2021 18:34:50 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php:0
+[06-Feb-2021 05:24:23 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php on line 63
+[06-Feb-2021 05:24:23 UTC] PHP Stack trace:
+[06-Feb-2021 05:24:23 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php:0
+[08-Feb-2021 15:14:38 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php on line 63
+[08-Feb-2021 15:14:38 UTC] PHP Stack trace:
+[08-Feb-2021 15:14:38 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php:0
+[08-Feb-2021 20:21:15 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php on line 63
+[08-Feb-2021 20:21:15 UTC] PHP Stack trace:
+[08-Feb-2021 20:21:15 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/calidad/moduloE2/bd/crud.php:0

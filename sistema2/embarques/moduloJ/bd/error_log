@@ -1,0 +1,3 @@
+[08-Feb-2021 18:36:02 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/embarques/moduloJ/bd/crud.php on line 59
+[08-Feb-2021 18:36:02 UTC] PHP Stack trace:
+[08-Feb-2021 18:36:02 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/embarques/moduloJ/bd/crud.php:0

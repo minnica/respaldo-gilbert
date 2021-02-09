@@ -1,0 +1,3 @@
+[28-Jan-2021 17:41:26 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/obra_recepcion/moduloM/bd/crud.php on line 61
+[28-Jan-2021 17:41:26 UTC] PHP Stack trace:
+[28-Jan-2021 17:41:26 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/obra_recepcion/moduloM/bd/crud.php:0

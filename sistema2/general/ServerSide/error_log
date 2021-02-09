@@ -1,0 +1,14 @@
+[29-Jan-2021 19:12:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/gilbertm/public_html/sistema2/general/ServerSide/serverside.php:94
+Stack trace:
+#0 /home/gilbertm/public_html/sistema2/general/ServerSide/serversideUsuarios.php(3): TableData->get('vista_tabla', 'id_tabla', Array)
+#1 {main}
+  thrown in /home/gilbertm/public_html/sistema2/general/ServerSide/serverside.php on line 94
+[29-Jan-2021 19:12:00 UTC] PHP Stack trace:
+[29-Jan-2021 19:12:00 UTC] PHP   1. newrelic_exception_handler() UNKNOWN?:0
+[29-Jan-2021 19:12:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/gilbertm/public_html/sistema2/general/ServerSide/serverside.php:94
+Stack trace:
+#0 /home/gilbertm/public_html/sistema2/general/ServerSide/serversideUsuarios.php(3): TableData->get('vista_tabla', 'id_tabla', Array)
+#1 {main}
+  thrown in /home/gilbertm/public_html/sistema2/general/ServerSide/serverside.php on line 94
+[29-Jan-2021 19:12:11 UTC] PHP Stack trace:
+[29-Jan-2021 19:12:11 UTC] PHP   1. newrelic_exception_handler() UNKNOWN?:0

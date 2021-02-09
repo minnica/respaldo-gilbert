@@ -1,0 +1,6 @@
+[29-Jan-2021 15:08:51 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/calidad/moduloM/bd/crud.php on line 63
+[29-Jan-2021 15:08:51 UTC] PHP Stack trace:
+[29-Jan-2021 15:08:51 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/calidad/moduloM/bd/crud.php:0
+[29-Jan-2021 15:09:23 UTC] PHP Notice:  Undefined variable: data in /home/gilbertm/public_html/sistema2/calidad/moduloM/bd/crud.php on line 63
+[29-Jan-2021 15:09:23 UTC] PHP Stack trace:
+[29-Jan-2021 15:09:23 UTC] PHP   1. {main}() /home/gilbertm/public_html/sistema2/calidad/moduloM/bd/crud.php:0

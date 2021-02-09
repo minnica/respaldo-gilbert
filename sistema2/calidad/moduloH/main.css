@@ -1,0 +1,12 @@
+.terminado {
+    background-color: #00E700;
+}
+.pendiente {
+    background-color: #FF0000;
+}
+.proceso {
+    background-color: #FFFF00;
+}
+.todo{
+  background-color: white;
+}

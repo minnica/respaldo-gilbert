@@ -1,0 +1,180 @@
+.top { 
+  position:absolute; 
+    top:10px; 
+    left:10px;  
+}
+.top2{ 
+    position:absolute; 
+    top:10px; 
+    right:10px; 
+    } 
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #dee2e6;
+  font-family: "Varela Round", sans-serif;
+}
+
+.menu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  /*max-width: 750px;*/
+  margin: 0 auto;
+  height: 40vh;
+  list-style: none;
+}
+
+.menu li {
+  width: 175px;
+  height: 50px;
+  -webkit-transition: background-position-x 0.9s linear;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+}
+.menu li a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+.menu li:hover {
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==");
+  -webkit-animation: line 1s;
+          animation: line 1s;
+}
+.menu li:hover a {
+  color: #d94f5c;
+}
+.menu li {
+  margin-right: 30px;
+}
+
+@-webkit-keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}
+
+@keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}
+
+#notification-header {
+  background: #dee2e6;
+    padding: 6px;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+button#notification-icon {
+  background: transparent;
+  border: 0;
+  position:relative;
+  cursor:pointer;
+}
+#notification-count{
+  position: absolute;
+    left: -2px;
+    top: -8px;
+    font-size: 14px;
+    color: #de5050;
+    font-weight: bold;
+}
+#form-header {
+  font-size:1.5em;
+}
+#frmNotification {
+  padding:20px 30px;
+}
+.form-row{
+  padding-bottom:20px;
+}
+#btn-send {
+  background: #258bdc;
+  color: #FFF;
+  padding: 10px 40px;
+  border: 0px;
+}
+div.demo-content input[type='text'],textarea{
+  width: 100%;
+  padding: 10px 5px;
+}
+#notification-latest {
+  color: #555;
+  position: absolute;
+  right: 0px;
+  background: #f5f5f5;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.20);
+  /* max-width: 250px; */
+  text-align: left;
+  font-size: 12px;
+}
+.notification-item {
+  padding:10px;
+  border-bottom: #ce2078 2px solid;
+  cursor:pointer;
+}
+.notification-subject {   
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.notification-comment {   
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style:italic;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+  }
+  /*importante*/
+  .menu li a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+  /*importante*/
+  .menu li:hover a {
+    color: #d94f5c;
+  }
+  .menu li:not(:last-child) {
+    padding-bottom: 20px;
+  }
+  .menu li:hover {
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==");
+    -webkit-animation: line 1s;
+    animation: line 1s;
+  }
+  .menu li:hover a {
+    color: #d94f5c;
+  }
+}
